@@ -2,11 +2,12 @@
 kotlin = "1.8.21"
 
 kotest = "5.6.2"
+kotest-core = "4.1.3"
 mockk = "1.13.5"
 
 [libraries]
 kotest-jvm-junit = { module = "io.kotest:kotest-runner-junit5-jvm", version.ref = "kotest" }
-kotest-jvm-core = { module = "io.kotest:kotest-core-jvm", version.ref = "kotest" }
+kotest-jvm-core = { module = "io.kotest:kotest-core-jvm", version.ref = "kotest-core" }
 kotest-core-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 mockk-jvm = { module = "io.mockk:mockk-jvm", version.ref = "mockk" }
 mockk-base = { module = "io.mockk:mockk", version.ref = "mockk" }

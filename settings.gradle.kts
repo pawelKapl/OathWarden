@@ -8,3 +8,6 @@ pluginManagement {
         `version-catalog`
     }
 }
+
+include("processors")
+include("main")
